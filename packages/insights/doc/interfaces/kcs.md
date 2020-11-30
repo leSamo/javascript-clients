@@ -23,7 +23,7 @@
 
 • **node_id**: *string*
 
-*Defined in [packages/insights/api.ts:39](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L39)*
+*Defined in [packages/insights/api.ts:39](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L39)*
 
 KCS solution number
 
@@ -35,7 +35,7 @@ ___
 
 • **rule_url**: *string*
 
-*Defined in [packages/insights/api.ts:33](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L33)*
+*Defined in [packages/insights/api.ts:33](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L33)*
 
 Rule URL on C.R.C.
 

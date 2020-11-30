@@ -23,7 +23,7 @@
 
 • **detail**? : *string*
 
-*Defined in [packages/rbac/api.ts:141](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L141)*
+*Defined in [packages/rbac/api.ts:141](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L141)*
 
 **`memberof`** ErrorErrors
 
@@ -33,6 +33,6 @@ ___
 
 • **status**? : *string*
 
-*Defined in [packages/rbac/api.ts:147](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L147)*
+*Defined in [packages/rbac/api.ts:147](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L147)*
 
 **`memberof`** ErrorErrors

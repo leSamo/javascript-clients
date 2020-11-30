@@ -25,7 +25,7 @@
 
 • **application**? : *string*
 
-*Defined in [packages/rbac/api.ts:530](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L530)*
+*Defined in [packages/rbac/api.ts:530](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L530)*
 
 **`memberof`** Permission
 
@@ -35,7 +35,7 @@ ___
 
 • **permission**? : *string*
 
-*Defined in [packages/rbac/api.ts:548](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L548)*
+*Defined in [packages/rbac/api.ts:548](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L548)*
 
 **`memberof`** Permission
 
@@ -45,7 +45,7 @@ ___
 
 • **resource_type**? : *string*
 
-*Defined in [packages/rbac/api.ts:536](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L536)*
+*Defined in [packages/rbac/api.ts:536](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L536)*
 
 **`memberof`** Permission
 
@@ -55,6 +55,6 @@ ___
 
 • **verb**? : *string*
 
-*Defined in [packages/rbac/api.ts:542](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L542)*
+*Defined in [packages/rbac/api.ts:542](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L542)*
 
 **`memberof`** Permission

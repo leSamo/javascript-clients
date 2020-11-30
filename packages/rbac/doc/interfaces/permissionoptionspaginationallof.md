@@ -22,6 +22,6 @@
 
 • **data**: *Array‹string›*
 
-*Defined in [packages/rbac/api.ts:574](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L574)*
+*Defined in [packages/rbac/api.ts:574](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L574)*
 
 **`memberof`** PermissionOptionsPaginationAllOf

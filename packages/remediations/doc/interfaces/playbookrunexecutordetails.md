@@ -28,7 +28,7 @@
 
 • **created_at**: *string*
 
-*Defined in [api.ts:411](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L411)*
+*Defined in [api.ts:411](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L411)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -38,7 +38,7 @@ ___
 
 • **created_by**: *[UserOut](userout.md)*
 
-*Defined in [api.ts:405](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L405)*
+*Defined in [api.ts:405](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L405)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -48,7 +48,7 @@ ___
 
 • **executors**: *Array‹[PlaybookExecutorDetails](playbookexecutordetails.md)›*
 
-*Defined in [api.ts:393](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L393)*
+*Defined in [api.ts:393](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L393)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -58,7 +58,7 @@ ___
 
 • **id**? : *string*
 
-*Defined in [api.ts:387](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L387)*
+*Defined in [api.ts:387](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L387)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -68,7 +68,7 @@ ___
 
 • **remediation_id**: *string*
 
-*Defined in [api.ts:399](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L399)*
+*Defined in [api.ts:399](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L399)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -78,7 +78,7 @@ ___
 
 • **status**: *[PlaybookRunStatus](../enums/playbookrunstatus.md)*
 
-*Defined in [api.ts:423](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L423)*
+*Defined in [api.ts:423](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L423)*
 
 **`memberof`** PlaybookRunExecutorDetails
 
@@ -88,6 +88,6 @@ ___
 
 • **updated_at**: *string*
 
-*Defined in [api.ts:417](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L417)*
+*Defined in [api.ts:417](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L417)*
 
 **`memberof`** PlaybookRunExecutorDetails

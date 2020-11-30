@@ -60,7 +60,7 @@
 
 • **BASE_PATH**: *string* = "https://cloud.redhat.com/api/insights/v1".replace(/\/+$/, "")
 
-*Defined in [packages/insights/base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L20)*
+*Defined in [packages/insights/base.ts:20](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L20)*
 
 ## Functions
 
@@ -68,7 +68,7 @@
 
 ▸ **KcsApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:121](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L121)*
+*Defined in [packages/insights/api.ts:121](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L121)*
 
 KcsApi - axios parameter creator
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **KcsApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:238](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L238)*
+*Defined in [packages/insights/api.ts:238](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L238)*
 
 KcsApi - factory interface
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **KcsApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:201](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L201)*
+*Defined in [packages/insights/api.ts:201](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L201)*
 
 KcsApi - functional programming interface
 
@@ -146,7 +146,7 @@ ___
 
 ▸ **ResolutionRiskApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:301](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L301)*
+*Defined in [packages/insights/api.ts:301](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L301)*
 
 ResolutionRiskApi - axios parameter creator
 
@@ -168,7 +168,7 @@ ___
 
 ▸ **ResolutionRiskApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:362](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L362)*
+*Defined in [packages/insights/api.ts:362](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L362)*
 
 ResolutionRiskApi - factory interface
 
@@ -192,7 +192,7 @@ ___
 
 ▸ **ResolutionRiskApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:340](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L340)*
+*Defined in [packages/insights/api.ts:340](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L340)*
 
 ResolutionRiskApi - functional programming interface
 
@@ -216,7 +216,7 @@ ___
 
 ▸ **RulecategoryApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:401](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L401)*
+*Defined in [packages/insights/api.ts:401](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L401)*
 
 RulecategoryApi - axios parameter creator
 
@@ -240,7 +240,7 @@ ___
 
 ▸ **RulecategoryApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:512](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L512)*
+*Defined in [packages/insights/api.ts:512](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L512)*
 
 RulecategoryApi - factory interface
 
@@ -266,7 +266,7 @@ ___
 
 ▸ **RulecategoryApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:476](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L476)*
+*Defined in [packages/insights/api.ts:476](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L476)*
 
 RulecategoryApi - functional programming interface
 
@@ -294,7 +294,7 @@ ___
 
 ▸ **StatusApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:573](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L573)*
+*Defined in [packages/insights/api.ts:573](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L573)*
 
 StatusApi - axios parameter creator
 
@@ -320,7 +320,7 @@ ___
 
 ▸ **StatusApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:720](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L720)*
+*Defined in [packages/insights/api.ts:720](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L720)*
 
 StatusApi - factory interface
 
@@ -348,7 +348,7 @@ ___
 
 ▸ **StatusApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:672](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L672)*
+*Defined in [packages/insights/api.ts:672](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L672)*
 
 StatusApi - functional programming interface
 
@@ -380,7 +380,7 @@ ___
 
 ▸ **SystemtypeApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:799](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L799)*
+*Defined in [packages/insights/api.ts:799](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L799)*
 
 SystemtypeApi - axios parameter creator
 
@@ -404,7 +404,7 @@ ___
 
 ▸ **SystemtypeApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:910](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L910)*
+*Defined in [packages/insights/api.ts:910](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L910)*
 
 SystemtypeApi - factory interface
 
@@ -430,7 +430,7 @@ ___
 
 ▸ **SystemtypeApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:874](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L874)*
+*Defined in [packages/insights/api.ts:874](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L874)*
 
 SystemtypeApi - functional programming interface
 
@@ -458,7 +458,7 @@ ___
 
 ▸ **TotalRiskApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:971](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L971)*
+*Defined in [packages/insights/api.ts:971](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L971)*
 
 TotalRiskApi - axios parameter creator
 
@@ -480,7 +480,7 @@ ___
 
 ▸ **TotalRiskApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:1032](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L1032)*
+*Defined in [packages/insights/api.ts:1032](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L1032)*
 
 TotalRiskApi - factory interface
 
@@ -504,7 +504,7 @@ ___
 
 ▸ **TotalRiskApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:1010](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L1010)*
+*Defined in [packages/insights/api.ts:1010](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/api.ts#L1010)*
 
 TotalRiskApi - functional programming interface
 
@@ -528,7 +528,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [packages/insights/base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L26)*
+*Defined in [packages/insights/base.ts:26](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L26)*
 
 **`export`** 
 
@@ -536,22 +536,22 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [packages/insights/base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L27)*
+*Defined in [packages/insights/base.ts:27](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [packages/insights/base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L30)*
+*Defined in [packages/insights/base.ts:30](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [packages/insights/base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L28)*
+*Defined in [packages/insights/base.ts:28](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [packages/insights/base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L29)*
+*Defined in [packages/insights/base.ts:29](https://github.com/leSamo/javascript-clients/blob/master/packages/insights/base.ts#L29)*

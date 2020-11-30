@@ -501,6 +501,40 @@ export interface NetworkInterface {
     type?: string;
 }
 /**
+ * Object for OS details
+ * @export
+ * @interface OperatingSystem
+ */
+export interface OperatingSystem {
+    /**
+     * Major release of OS (aka the x version)
+     * @type {number}
+     * @memberof OperatingSystem
+     */
+    major?: number;
+    /**
+     * Minor release of OS (aka the y version)
+     * @type {number}
+     * @memberof OperatingSystem
+     */
+    minor?: number;
+    /**
+     * Name of the distro/os
+     * @type {string}
+     * @memberof OperatingSystem
+     */
+    name?: OperatingSystemNameEnum;
+}
+
+/**
+    * @export
+    * @enum {string}
+    */
+export enum OperatingSystemNameEnum {
+    RHEL = 'RHEL'
+}
+
+/**
  * Data of a single host to be updated.
  * @export
  * @interface PatchHostIn
@@ -622,6 +656,12 @@ export interface SystemProfile {
      * @memberof SystemProfile
      */
     cpu_flags?: Array<string>;
+    /**
+     *
+     * @type {OperatingSystem}
+     * @memberof SystemProfile
+     */
+    operating_system?: OperatingSystem;
     /**
      *
      * @type {string}

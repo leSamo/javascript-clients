@@ -27,7 +27,7 @@
 
 • **console**: *string*
 
-*Defined in [api.ts:481](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L481)*
+*Defined in [api.ts:481](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L481)*
 
 Current formatted system log from playbook run system.
 
@@ -39,7 +39,7 @@ ___
 
 • **playbook_run_executor_id**: *string*
 
-*Defined in [api.ts:487](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L487)*
+*Defined in [api.ts:487](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L487)*
 
 **`memberof`** PlaybookRunSystemDetails
 
@@ -49,7 +49,7 @@ ___
 
 • **status**: *[PlaybookRunSystemStatus](../enums/playbookrunsystemstatus.md)*
 
-*Defined in [api.ts:475](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L475)*
+*Defined in [api.ts:475](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L475)*
 
 **`memberof`** PlaybookRunSystemDetails
 
@@ -59,7 +59,7 @@ ___
 
 • **system_id**: *string*
 
-*Defined in [api.ts:463](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L463)*
+*Defined in [api.ts:463](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L463)*
 
 **`memberof`** PlaybookRunSystemDetails
 
@@ -69,7 +69,7 @@ ___
 
 • **system_name**: *string*
 
-*Defined in [api.ts:469](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L469)*
+*Defined in [api.ts:469](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L469)*
 
 **`memberof`** PlaybookRunSystemDetails
 
@@ -79,6 +79,6 @@ ___
 
 • **updated_at**: *string*
 
-*Defined in [api.ts:493](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L493)*
+*Defined in [api.ts:493](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L493)*
 
 **`memberof`** PlaybookRunSystemDetails

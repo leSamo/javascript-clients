@@ -40,7 +40,7 @@ SettingsApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 ## Methods
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **createSetting**(`setting`: [Setting](../interfaces/setting.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:7682](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L7682)*
+*Defined in [packages/catalog/api.ts:7682](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L7682)*
 
 Create Tenant Setting
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **destroySetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:7694](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L7694)*
+*Defined in [packages/catalog/api.ts:7694](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L7694)*
 
 Delete a Tenant Setting
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **listSettings**(`options?`: any): *AxiosPromise‹[TenantSettings](../interfaces/tenantsettings.md)›*
 
-*Defined in [packages/catalog/api.ts:7705](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L7705)*
+*Defined in [packages/catalog/api.ts:7705](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L7705)*
 
 List Tenant Settings
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **showSetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:7717](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L7717)*
+*Defined in [packages/catalog/api.ts:7717](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L7717)*
 
 Get a specific Tenant Setting
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **updateSetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:7729](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L7729)*
+*Defined in [packages/catalog/api.ts:7729](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L7729)*
 
 Update a Tenant Setting
 

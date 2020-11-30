@@ -22,6 +22,6 @@
 
 • **data**: *Array‹[Permission](permission.md)›*
 
-*Defined in [packages/rbac/api.ts:600](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L600)*
+*Defined in [packages/rbac/api.ts:600](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L600)*
 
 **`memberof`** PermissionPaginationAllOf

@@ -36,7 +36,7 @@ DiagnosisApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L49)*
+*Defined in [base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/base.ts#L49)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L51)*
+*Defined in [base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/base.ts#L51)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L51)*
+*Defined in [base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/base.ts#L51)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L49)*
+*Defined in [base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/base.ts#L49)*
 
 ## Methods
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **getDiagnosis**(`system`: string, `remediation?`: string, `options?`: any): *AxiosPromise‹[Diagnosis](../interfaces/diagnosis.md)›*
 
-*Defined in [api.ts:1291](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1291)*
+*Defined in [api.ts:1291](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L1291)*
 
 Provides host-specific diagnosis information
 

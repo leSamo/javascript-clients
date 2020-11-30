@@ -26,7 +26,7 @@
 
 • **count**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:924](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L924)*
+*Defined in [packages/host-inventory/api.ts:964](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L964)*
 
 A number of entries on the current page.
 
@@ -38,7 +38,7 @@ ___
 
 • **page**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:930](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L930)*
+*Defined in [packages/host-inventory/api.ts:970](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L970)*
 
 A current page number.
 
@@ -50,7 +50,7 @@ ___
 
 • **per_page**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:936](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L936)*
+*Defined in [packages/host-inventory/api.ts:976](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L976)*
 
 A page size – a number of entries per single page.
 
@@ -62,7 +62,7 @@ ___
 
 • **results**? : *object*
 
-*Defined in [packages/host-inventory/api.ts:942](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L942)*
+*Defined in [packages/host-inventory/api.ts:982](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L982)*
 
 The list of tags on the systems
 
@@ -78,7 +78,7 @@ ___
 
 • **total**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:918](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L918)*
+*Defined in [packages/host-inventory/api.ts:958](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L958)*
 
 Total number of items in the \"data\" list.
 

@@ -20,7 +20,7 @@
 
 • **Connected**: = "connected"
 
-*Defined in [api.ts:283](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L283)*
+*Defined in [api.ts:283](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L283)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **Disconnected**: = "disconnected"
 
-*Defined in [api.ts:284](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L284)*
+*Defined in [api.ts:284](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L284)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **NoExecutor**: = "no_executor"
 
-*Defined in [api.ts:285](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L285)*
+*Defined in [api.ts:285](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L285)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **NoReceptor**: = "no_receptor"
 
-*Defined in [api.ts:287](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L287)*
+*Defined in [api.ts:287](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L287)*
 
 ___
 
@@ -52,4 +52,4 @@ ___
 
 • **NoSource**: = "no_source"
 
-*Defined in [api.ts:286](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L286)*
+*Defined in [api.ts:286](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L286)*

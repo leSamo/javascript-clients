@@ -25,7 +25,7 @@ Data of a single host to be updated.
 
 • **ansible_host**? : *string*
 
-*Defined in [packages/host-inventory/api.ts:514](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L514)*
+*Defined in [packages/host-inventory/api.ts:548](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L548)*
 
 The ansible host name for remediations
 
@@ -37,7 +37,7 @@ ___
 
 • **display_name**? : *string*
 
-*Defined in [packages/host-inventory/api.ts:520](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L520)*
+*Defined in [packages/host-inventory/api.ts:554](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L554)*
 
 A host’s human-readable display name, e.g. in a form of a domain name.
 

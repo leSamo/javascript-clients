@@ -41,7 +41,7 @@ OrderItemApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 ## Methods
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **destroyOrderItem**(`id`: string, `options?`: any): *AxiosPromise‹[RestoreKey](../interfaces/restorekey.md)›*
 
-*Defined in [packages/catalog/api.ts:3149](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3149)*
+*Defined in [packages/catalog/api.ts:3149](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3149)*
 
 Deletes the order item  based on order item ID passed
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **listApprovalRequests**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[ApprovalRequestsCollection](../interfaces/approvalrequestscollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3165](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3165)*
+*Defined in [packages/catalog/api.ts:3165](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3165)*
 
 Gets a list of approval request associated with an order item. As the item is being approved one can check the status of the approvals.
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **listOrderItems**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[OrderItemsCollection](../interfaces/orderitemscollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3180](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3180)*
+*Defined in [packages/catalog/api.ts:3180](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3180)*
 
 Gets a list of order items.
 
@@ -171,7 +171,7 @@ ___
 
 ▸ **listProgressMessages**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[ProgressMessagesCollection](../interfaces/progressmessagescollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3196](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3196)*
+*Defined in [packages/catalog/api.ts:3196](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3196)*
 
 Gets a list of progress messages associated with an order item. As the item is being processed the provider can update the progress messages.
 
@@ -200,7 +200,7 @@ ___
 
 ▸ **restoreOrderItem**(`id`: string, `restoreKey`: [RestoreKey](../interfaces/restorekey.md), `options?`: any): *AxiosPromise‹[OrderItem](../interfaces/orderitem.md)›*
 
-*Defined in [packages/catalog/api.ts:3209](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3209)*
+*Defined in [packages/catalog/api.ts:3209](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3209)*
 
 Restores the order item specified by the order item ID.
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **showOrderItem**(`id`: string, `options?`: any): *AxiosPromise‹[OrderItem](../interfaces/orderitem.md)›*
 
-*Defined in [packages/catalog/api.ts:3221](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3221)*
+*Defined in [packages/catalog/api.ts:3221](https://github.com/leSamo/javascript-clients/blob/master/packages/catalog/api.ts#L3221)*
 
 Gets a specific order item based on the order item ID passed
 

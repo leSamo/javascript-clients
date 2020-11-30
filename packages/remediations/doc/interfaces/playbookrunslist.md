@@ -23,7 +23,7 @@
 
 • **data**: *Array‹[PlaybookRunDetails](playbookrundetails.md)›*
 
-*Defined in [api.ts:575](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L575)*
+*Defined in [api.ts:575](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L575)*
 
 **`memberof`** PlaybookRunsList
 
@@ -33,6 +33,6 @@ ___
 
 • **meta**: *[Meta](meta.md)*
 
-*Defined in [api.ts:581](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L581)*
+*Defined in [api.ts:581](https://github.com/leSamo/javascript-clients/blob/master/packages/remediations/api.ts#L581)*
 
 **`memberof`** PlaybookRunsList

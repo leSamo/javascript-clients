@@ -45,7 +45,7 @@ HostsApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/host-inventory/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/base.ts#L49)*
+*Defined in [packages/host-inventory/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/base.ts#L49)*
 
 **Parameters:**
 
@@ -65,7 +65,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/host-inventory/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/base.ts#L51)*
+*Defined in [packages/host-inventory/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/base.ts#L51)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/host-inventory/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/base.ts#L51)*
+*Defined in [packages/host-inventory/base.ts:51](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/base.ts#L51)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/host-inventory/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/base.ts#L49)*
+*Defined in [packages/host-inventory/base.ts:49](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/base.ts#L49)*
 
 ## Methods
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **apiHostDeleteById**(`hostIdList`: Array‹string›, `branchId?`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/host-inventory/api.ts:2010](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2010)*
+*Defined in [packages/host-inventory/api.ts:2050](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2050)*
 
 Delete hosts by IDs <br /><br /> Required permissions: inventory:hosts:write
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **apiHostGetHostById**(`hostIdList`: Array‹string›, `branchId?`: string, `perPage?`: number, `page?`: number, `orderBy?`: "display_name" | "updated", `orderHow?`: "ASC" | "DESC", `options?`: any): *AxiosPromise‹[HostQueryOutput](../interfaces/hostqueryoutput.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2027](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2027)*
+*Defined in [packages/host-inventory/api.ts:2067](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2067)*
 
 Find one or more hosts by their ID. <br /><br /> Required permissions: inventory:hosts:read
 
@@ -149,7 +149,7 @@ ___
 
 ▸ **apiHostGetHostList**(`displayName?`: string, `fqdn?`: string, `hostnameOrId?`: string, `insightsId?`: string, `branchId?`: string, `perPage?`: number, `page?`: number, `orderBy?`: "display_name" | "updated", `orderHow?`: "ASC" | "DESC", `staleness?`: Array‹"fresh" | "stale" | "stale_warning" | "unknown"›, `tags?`: Array‹string›, `registeredWith?`: "insights", `filter?`: object, `options?`: any): *AxiosPromise‹[HostQueryOutput](../interfaces/hostqueryoutput.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2051](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2051)*
+*Defined in [packages/host-inventory/api.ts:2091](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2091)*
 
 Read the entire list of all hosts available to the account. <br /><br /> Required permissions: inventory:hosts:read
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **apiHostGetHostSystemProfileById**(`hostIdList`: Array‹string›, `perPage?`: number, `page?`: number, `orderBy?`: "display_name" | "updated", `orderHow?`: "ASC" | "DESC", `branchId?`: string, `options?`: any): *AxiosPromise‹[SystemProfileByHostOut](../interfaces/systemprofilebyhostout.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2068](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2068)*
+*Defined in [packages/host-inventory/api.ts:2108](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2108)*
 
 Find one or more hosts by their ID and return the id and system profile <br /><br /> Required permissions: inventory:hosts:read
 
@@ -216,7 +216,7 @@ ___
 
 ▸ **apiHostGetHostTagCount**(`hostIdList`: Array‹string›, `perPage?`: number, `page?`: number, `orderBy?`: "display_name" | "updated", `orderHow?`: "ASC" | "DESC", `options?`: any): *AxiosPromise‹[TagCountOut](../interfaces/tagcountout.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2084](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2084)*
+*Defined in [packages/host-inventory/api.ts:2124](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2124)*
 
 Get the number of tags on a host <br /><br /> Required permissions: inventory:hosts:read
 
@@ -245,7 +245,7 @@ ___
 
 ▸ **apiHostGetHostTags**(`hostIdList`: Array‹string›, `perPage?`: number, `page?`: number, `orderBy?`: "display_name" | "updated", `orderHow?`: "ASC" | "DESC", `search?`: string, `options?`: any): *AxiosPromise‹[TagsOut](../interfaces/tagsout.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2101](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2101)*
+*Defined in [packages/host-inventory/api.ts:2141](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2141)*
 
 Get the tags on a host <br /><br /> Required permissions: inventory:hosts:read
 
@@ -275,7 +275,7 @@ ___
 
 ▸ **apiHostHostCheckin**(`createCheckIn`: [CreateCheckIn](../interfaces/createcheckin.md), `options?`: any): *AxiosPromise‹[CreateHostOut](../interfaces/createhostout.md)›*
 
-*Defined in [packages/host-inventory/api.ts:2113](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2113)*
+*Defined in [packages/host-inventory/api.ts:2153](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2153)*
 
 Finds a host and updates its staleness timestamps. It uses the supplied canonical facts to determine which host to update. By default, the staleness timestamp is set to 1 hour from when the request is received; however, this can be overridden by supplying the interval. <br /><br /> Required permissions: inventory:hosts:write
 
@@ -300,7 +300,7 @@ ___
 
 ▸ **apiHostMergeFacts**(`hostIdList`: Array‹string›, `namespace`: string, `body`: object, `branchId?`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/host-inventory/api.ts:2128](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2128)*
+*Defined in [packages/host-inventory/api.ts:2168](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2168)*
 
 Merge one or multiple hosts facts under a namespace. <br /><br /> Required permissions: inventory:hosts:write
 
@@ -328,7 +328,7 @@ ___
 
 ▸ **apiHostPatchById**(`hostIdList`: Array‹string›, `patchHostIn`: [PatchHostIn](../interfaces/patchhostin.md), `branchId?`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/host-inventory/api.ts:2142](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2142)*
+*Defined in [packages/host-inventory/api.ts:2182](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2182)*
 
 Update a host <br /><br /> Required permissions: inventory:hosts:write
 
@@ -355,7 +355,7 @@ ___
 
 ▸ **apiHostReplaceFacts**(`hostIdList`: Array‹string›, `namespace`: string, `body`: object, `branchId?`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/host-inventory/api.ts:2157](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L2157)*
+*Defined in [packages/host-inventory/api.ts:2197](https://github.com/leSamo/javascript-clients/blob/master/packages/host-inventory/api.ts#L2197)*
 
 Replace facts under a namespace <br /><br /> Required permissions: inventory:hosts:write
 

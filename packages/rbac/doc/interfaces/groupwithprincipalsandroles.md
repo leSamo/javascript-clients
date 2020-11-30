@@ -28,7 +28,7 @@
 
 • **created**: *string*
 
-*Defined in [packages/rbac/api.ts:391](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L391)*
+*Defined in [packages/rbac/api.ts:391](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L391)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -38,7 +38,7 @@ ___
 
 • **description**? : *string*
 
-*Defined in [packages/rbac/api.ts:379](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L379)*
+*Defined in [packages/rbac/api.ts:379](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L379)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -48,7 +48,7 @@ ___
 
 • **modified**: *string*
 
-*Defined in [packages/rbac/api.ts:397](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L397)*
+*Defined in [packages/rbac/api.ts:397](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L397)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -58,7 +58,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [packages/rbac/api.ts:373](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L373)*
+*Defined in [packages/rbac/api.ts:373](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L373)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -68,7 +68,7 @@ ___
 
 • **principals**: *Array‹[Principal](principal.md)›*
 
-*Defined in [packages/rbac/api.ts:403](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L403)*
+*Defined in [packages/rbac/api.ts:403](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L403)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -78,7 +78,7 @@ ___
 
 • **roles**: *Array‹[RoleOut](roleout.md)›*
 
-*Defined in [packages/rbac/api.ts:409](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L409)*
+*Defined in [packages/rbac/api.ts:409](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L409)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
 
@@ -88,6 +88,6 @@ ___
 
 • **uuid**: *string*
 
-*Defined in [packages/rbac/api.ts:385](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L385)*
+*Defined in [packages/rbac/api.ts:385](https://github.com/leSamo/javascript-clients/blob/master/packages/rbac/api.ts#L385)*
 
 **`memberof`** GroupWithPrincipalsAndRoles
